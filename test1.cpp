@@ -17,7 +17,6 @@ void checkout(const std::vector<int>& purchase) {
     receipt->exceptions();
     receipt->exception2_discounts();
     receipt->print_billing_list();
-
     delete receipt;
 }
 
