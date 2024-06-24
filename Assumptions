@@ -1,0 +1,3 @@
+1. All products have a unique product_id
+2. Each product is only in 1 group at most
+3. No double-counting the promotional items
