@@ -1,7 +1,8 @@
 #include "Product.h"
 
-//base case
-Product::Product() : product_name(""), product_id(0), price(0.0), group_id(0) {}
+//base cases
+Product::Product() : product_name(""), product_id(0), price(0.00), group_id(0) {}
+
 Product::Product(std::string name, int id, double cost, int group) {
     product_name = name;
     product_id = id;

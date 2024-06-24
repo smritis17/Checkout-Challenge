@@ -7,3 +7,4 @@ void Company_Products::add_product(std::string name, int id, double price, int g
     Product new_product(name, id, price, group);
     total_items[id] = new_product;
 }
+

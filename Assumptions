@@ -1,3 +1,8 @@
 1. All products have a unique product_id
 2. Each product is only in 1 group at most
 3. No double-counting the promotional items
+4. Exception 1(three of a kind) takes priority over exception 2(3 in the same promotional group)
+5. Group_id of 0 means that it doesn't belong to any group
+6. All items from the buying list are in the total_list of products
+
+Note: No exceptions are being handles as a result of the assumptions

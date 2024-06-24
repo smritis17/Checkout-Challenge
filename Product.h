@@ -13,8 +13,8 @@ class Product {
     public:
         //base
         Product();
-        //constructing product
         Product(std::string name, int id, double cost, int group);
+        
 
         //get methods
         std::string get_product_name() const;

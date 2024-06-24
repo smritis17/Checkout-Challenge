@@ -15,11 +15,10 @@ class Billings {
         //remaining items sorted by promotional group
         std::unordered_map<int, std::vector<Product> > discount_groups;
     public:
-        void billing_quantity(int item_id);
-        void three_of_a_kind();
-        void groupings();
-        //testing methods
+        void add_billing_item(int item_id);
+        void exceptions();
+        void exception2_discounts();
+        //testing methods & output
         void print_billing_list();
-        void print_groupings();
 };
 #endif
