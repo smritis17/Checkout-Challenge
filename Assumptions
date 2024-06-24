@@ -5,4 +5,4 @@
 5. Group_id of 0 means that it doesn't belong to any group
 6. All items from the buying list are in the total_list of products
 
-Note: No exceptions are being handles as a result of the assumptions
+Note: No errors are being handles as a result of the assumptions

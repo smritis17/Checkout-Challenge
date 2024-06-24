@@ -1,5 +1,10 @@
 # Checkout Challenge
+Problem: Design a checkout that calculates the total receipt and all item information.
 
+Items are stored with their unit price.
+Some items are eligible for discounts based on the following 2 deal types: 
+- buy 3 identical items and pay for 2
+- buy 3 (in a set of items) and the cheapest is free
 # Inputs
 Provide an array of item_ids to the checkout function
 
