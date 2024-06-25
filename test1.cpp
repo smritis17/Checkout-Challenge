@@ -38,6 +38,9 @@ int main() {
 
     std::vector<int> buying_list2 = {6, 6, 6, 6, 5, 5, 7, 8, 8};
     checkout(buying_list2);
+
+    std::vector<int> buying_list3 = {1,1,1};
+    checkout(buying_list3);
     return 0;
 
 }

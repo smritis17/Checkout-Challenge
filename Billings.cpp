@@ -28,7 +28,7 @@ void Billings::add_billing_item(int item_id) {
 void Billings::exceptions() {
     for (auto& pair : billing_list) {
         Billing_Item& item = pair.second;
-        if (item.get_quantity() > 3) {
+        if (item.get_quantity() >= 3) {
             item.set_discounted_quantity(item.get_quantity()/3);
         }
         int count = item.get_quantity() % 3;
